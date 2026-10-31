@@ -7,11 +7,22 @@ class EducationAnalytics:
     def __init__(self, records: list[SchoolRecord]) -> None:
         self.records = records
 
-    def filter_records(self, ano: int | str | None = None, municipio: str | None = None, rede: str | None = None) -> list[SchoolRecord]:
+    def filter_records(
+        self,
+        ano: int | str | None = None,
+        ano_inicial: int | str | None = None,
+        ano_final: int | str | None = None,
+        municipio: str | None = None,
+        rede: str | None = None,
+    ) -> list[SchoolRecord]:
         filtered = self.records
 
         if ano not in (None, "Todos"):
             filtered = [r for r in filtered if r.ano == int(ano)]
+        if ano_inicial not in (None, "Todos"):
+            filtered = [r for r in filtered if r.ano >= int(ano_inicial)]
+        if ano_final not in (None, "Todos", "Ano atual"):
+            filtered = [r for r in filtered if r.ano <= int(ano_final)]
         if municipio not in (None, "Todos"):
             filtered = [r for r in filtered if r.municipio == municipio]
         if rede not in (None, "Todos"):
@@ -19,8 +30,21 @@ class EducationAnalytics:
 
         return filtered
 
-    def summary(self, ano: int | str | None = None, municipio: str | None = None, rede: str | None = None) -> dict:
-        filtered = self.filter_records(ano=ano, municipio=municipio, rede=rede)
+    def summary(
+        self,
+        ano: int | str | None = None,
+        ano_inicial: int | str | None = None,
+        ano_final: int | str | None = None,
+        municipio: str | None = None,
+        rede: str | None = None,
+    ) -> dict:
+        filtered = self.filter_records(
+            ano=ano,
+            ano_inicial=ano_inicial,
+            ano_final=ano_final,
+            municipio=municipio,
+            rede=rede,
+        )
 
         total_matriculas = sum(r.matriculas for r in filtered)
         total_aprovados = sum(r.aprovados for r in filtered)
@@ -40,8 +64,19 @@ class EducationAnalytics:
             "taxa_abandono_media": round(drop_rate, 2),
         }
 
-    def yearly_trend(self, municipio: str | None = None, rede: str | None = None) -> list[dict]:
-        registros = self.filter_records(municipio=municipio, rede=rede)
+    def yearly_trend(
+        self,
+        municipio: str | None = None,
+        rede: str | None = None,
+        ano_inicial: int | str | None = None,
+        ano_final: int | str | None = None,
+    ) -> list[dict]:
+        registros = self.filter_records(
+            municipio=municipio,
+            rede=rede,
+            ano_inicial=ano_inicial,
+            ano_final=ano_final,
+        )
         por_ano: dict[int, list[SchoolRecord]] = {}
 
         for record in registros:
@@ -58,8 +93,19 @@ class EducationAnalytics:
 
         return result
 
-    def municipality_comparison(self, ano: int | str | None = None, rede: str | None = None) -> list[dict]:
-        registros = self.filter_records(ano=ano, rede=rede)
+    def municipality_comparison(
+        self,
+        ano: int | str | None = None,
+        ano_inicial: int | str | None = None,
+        ano_final: int | str | None = None,
+        rede: str | None = None,
+    ) -> list[dict]:
+        registros = self.filter_records(
+            ano=ano,
+            ano_inicial=ano_inicial,
+            ano_final=ano_final,
+            rede=rede,
+        )
         por_municipio: dict[str, list[SchoolRecord]] = {}
 
         for record in registros:
