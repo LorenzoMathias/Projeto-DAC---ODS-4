@@ -1,0 +1,37 @@
+ano,municipio,escola,etapa,rede,matriculas,aprovados,reprovados,evadidos,abandono
+2018,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,180,145,15,12,15.00
+2019,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,190,158,16,11,14.21
+2020,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,205,174,17,10,13.17
+2021,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,215,188,14,9,10.70
+2022,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,225,201,13,8,9.33
+2023,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,238,214,12,7,7.98
+2024,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,248,228,10,6,6.45
+2025,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,260,242,10,5,5.77
+2026,Campo Grande,Escola Municipal Nova Esperança,Ensino Fundamental,Municipal,272,256,9,5,5.15
+2018,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,170,136,15,13,16.47
+2019,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,178,144,14,12,14.61
+2020,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,188,156,13,11,12.77
+2021,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,196,168,12,10,11.22
+2022,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,205,179,11,9,9.76
+2023,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,214,189,10,8,8.41
+2024,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,222,198,9,8,7.66
+2025,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,234,211,9,7,6.84
+2026,Dourados,Escola Estadual Sol Nascente,Ensino Fundamental,Estadual,246,224,8,7,6.10
+2018,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,165,129,17,12,17.58
+2019,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,172,136,16,11,15.70
+2020,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,181,146,15,10,13.81
+2021,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,190,158,14,9,12.11
+2022,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,198,167,13,8,10.61
+2023,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,205,174,12,8,9.76
+2024,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,214,184,11,7,8.41
+2025,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,224,194,10,7,7.59
+2026,Corumbá,Escola Municipal Boa Vista,Ensino Fundamental,Municipal,235,206,9,7,6.81
+2018,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,175,141,16,11,15.43
+2019,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,184,151,15,10,13.59
+2020,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,194,163,14,9,11.86
+2021,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,204,176,13,8,10.29
+2022,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,214,188,12,7,8.88
+2023,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,224,198,11,7,8.04
+2024,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,234,209,10,6,6.84
+2025,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,246,222,9,6,6.10
+2026,Três Lagoas,Escola Estadual Sul Brasil,Ensino Fundamental,Estadual,258,236,8,5,5.04
