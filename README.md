@@ -1,6 +1,10 @@
+
 # Projeto DAC - ODS 4
 
 Projeto acadêmico da disciplina de DAC (4º semestre) focado em analisar indicadores educacionais da rede pública de Mato Grosso do Sul, com base em dados históricos e filtros analíticos.
+
+## Aluno: Lorenzo Mathias Fonseca
+## RA: 193454 
 
 ## Objetivo
 
@@ -13,10 +17,7 @@ Projeto acadêmico da disciplina de DAC (4º semestre) focado em analisar indica
 ## Tecnologias
 
 - Python
-- Streamlit
 - SQLite
-- Pandas
-- Matplotlib
 - Orientação a Objetos
 
 ## Como executar
